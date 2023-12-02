@@ -1,0 +1,318 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Login {
+  background-color: #fff;
+  display: block;
+  padding: 1rem;
+  max-width: 350px;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  position: relative;
+  left: 65%;
+  -webkit-box-shadow: 5px 5px 15px -1px #000000; 
+  box-shadow: 5px 5px 15px -1px #000000;
+
+}
+
+.form-title {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input, .form button {
+    outline: none;
+    border: 1px solid #e5e7eb;
+    margin: 8px 0;
+}
+
+.input-container input {
+    background-color: #fff;
+    padding: 1rem;
+    padding-right: 3rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.submit {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.10rem;
+    padding-right: 1.25rem;
+    background-color: #52057B;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+
+.submit:hover {
+  transform: translateY(-3px);
+}
+
+.signup-link {
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-align: center;
+}
+
+.signup-link a {
+    text-decoration: none;
+}
+
+.loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; 
+}
+
+.ForTitle {
+    display: block;
+    position: relative;
+    top: 24vh;
+    left: 5vw;
+    color:white;
+}
+
+.ForTitle h1 {
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Para {
+    display: block;
+    position: relative;
+    top: 25vh;
+    left: 5vw;
+    color:white;
+    max-width: 600px; 
+    margin: 0;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width: 710px){
+    .Login {
+        position:relative;
+        top: 10vh;
+        left: 4vw;
+    }
+
+    .Para {
+        white-space: nowrap;      
+        overflow: hidden;            
+        text-overflow: ellipsis; 
+        position:relative;
+        top: 7vh;
+    }
+
+    .ForTitle {
+        top: 5vh;
+    }
+
+}
+
+.login-container {
+  position: relative;
+  top: 15px;
+}
+
+.login-container {
+    -webkit-animation: login-container 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: login-container 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes login-container {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes login-container {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+@-webkit-keyframes login-container {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes login-container {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .first {
+    -webkit-animation: first 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: first 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+  }
+
+  @-webkit-keyframes first {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes first {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @media screen and (max-width: 375px){
+    .Login {
+        position:relative;
+        top: 30vh;
+        left: 20vw;
+    }
+    .ForTitle {
+      top: 20vh;
+    }
+    .Para {
+      white-space: nowrap;      
+      overflow: hidden;            
+      text-overflow: ellipsis; 
+      position:relative;
+      top: 20vh;
+}
+
+  }
+
+  @media screen and (max-width: 884px){
+    .Login {
+        position:relative;
+        top: 20vh;
+        left: 25vw;
+    }
+    .ForTitle {
+      top: 20vh;
+      left: 25vw;
+    }
+    .Para {
+      white-space: nowrap;      
+      overflow: hidden;            
+      text-overflow: ellipsis; 
+      position:relative;
+      top: 20vh;
+      left:25vw;
+}
+  }
+
+  @media screen and (max-width: 466px){
+    .Login {
+        position:relative;
+        top: 20vh;
+        left: 12vw;
+    }
+    .ForTitle {
+      top: 20vh;
+      left: 12vw;
+    }
+    .Para {
+      white-space: nowrap;      
+      overflow: hidden;            
+      text-overflow: ellipsis; 
+      position:relative;
+      top: 20vh;
+      left:12vw;
+}
+  }
+
+  @media screen and (max-width: 396px){
+    .Login {
+        position:relative;
+        top: 15vh;
+        left: 18vw;
+    }
+    .ForTitle {
+      text-align: center;
+      top: 15vh;
+      left: 3vw;
+    }
+    .Para {
+      text-wrap:balance;     
+      overflow: hidden;            
+      text-overflow: ellipsis; 
+      content: '...';
+      -webkit-line-clamp: 10;
+      position:relative;
+      top: 15vh;
+      left:1vw;
+      margin-left: 1px;
+      margin-right: 3px;
+}
+  }
+

@@ -1,0 +1,42 @@
+body {
+
+  background-size: cover;
+  background-position: center;
+  background-image: url('./img/herobg.jpg');
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navs {
+  margin-bottom: 20px;
+  background-color: black;
+  position:sticky;
+  display:block;
+  top: 0;
+  z-index: 2;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navs a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navs a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}

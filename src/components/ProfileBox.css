@@ -1,0 +1,44 @@
+@media screen and (max-width: 375px) {
+    .LogAccount {
+        margin: 0;
+        padding: 0; 
+        position: absolute; 
+        right: 0;
+        left: 1px;
+        bottom: 1vh;
+    }
+}
+
+.LogAccount {
+    position:relative;
+    left: 92%;
+    bottom: 6vh;
+    z-index: 999;
+    overflow-x: hidden;
+    opacity: 0.9;
+}
+
+@media screen and (max-width:375px) {
+    #menu-appbar {
+        position: absolute;
+        left: 85px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .Box {
+        position:absolute;
+        right: 35px;
+        top: 47px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .Box {
+        position:absolute;
+        right: 45px;
+        top: 48px;
+    }
+}
+
+

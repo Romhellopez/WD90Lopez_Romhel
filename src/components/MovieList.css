@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+}  
+  .Trailer {
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .Trailer h3 {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 50px;
+   opacity: 0.9;
+  }
+
+
+  .Iframe {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: relative;
+    left: 9vw;
+    max-width: 80%; 
+    height: 500px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+  }
+
+  .Popular {
+    position: relative;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+    top: 10px;
+  }
+
+  .Card {
+    opacity: 0.9;
+    color: #333;
+    transition: transform 0.3s;
+  }
+  
+  .Card:hover {
+    transform: translateY(-10px);
+  }
+
+.CardContent-root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-shadow: 5px -3px 18px 8px rgba(0,0,0,0.41); 
+    box-shadow: 5px -3px 18px 8px rgba(0,0,0,0.41);
+    background-color:  black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.CardContent-text {
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.CardContent-text::after {
+  content: '...';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white 70%);
+}
+
+.CardContent-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+  
+.CardContent-button {
+    margin-top: auto;
+}
+
+.Overview {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+  
+
+@media screen and (max-width:375px) {
+    .Iframe {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        max-height: 50%;
+    }
+    .Card {
+      margin-left: 10px;
+      margin-right: 10px;
+    }  
+
+    .ModButton {
+      position: absolute;
+      left: 50px;
+    }
+    .Page {
+      margin-top: 20px; /* Adjust the margin-top value according to your layout */
+    }
+    .footP {
+      position: relative;
+      font-size: 15px;
+      padding-bottom: 8px;
+      bottom: 0;
+      left: 10px;
+    }
+    .media #fb {
+   position:relative;
+   left: 0px;
+   right: 20px;
+    }
+
+    .media #insta {
+      position:relative;
+      left: 0px;
+      right: 20px;
+    }
+    .media #X {
+      position:relative;
+      left: 0px;
+      right: 20px;
+    }
+    .media #tele {
+      position:relative;
+      left: 0px;
+      right: 20px;
+    }
+    #Button {
+      position: absolute;
+      left: 73%;
+      top: 5px;
+    }
+}
+
+
+.switch {
+  position:absolute;
+  left: 80%;
+  bottom:102.5%;
+  z-index: 2;
+  max-height: 100%;
+}
+
+.Page {
+  position: relative;
+  color:transparent;
+  margin-top: 20px;
+}
+
+.Page button {
+  border-radius: 15px;
+}
+
+.Page {
+  transition: transform 0.3s;
+}
+
+.Page button:hover {
+  transform: translateY(-10px);
+}
+
+
+div .Trailer {
+  margin-top: 20px;
+}
+
+
+

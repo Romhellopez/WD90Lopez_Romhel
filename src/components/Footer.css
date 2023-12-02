@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.footP {
+    color: black;
+
+}
+
+#fb {
+    position: relative;
+    left: 200px;
+    justify-content: space-between;
+    color: blue;
+
+}
+#insta {
+    position: relative;
+    left: 200px;
+    justify-content: space-between;
+    color: red;
+
+}
+#X {
+    position: relative;
+    left: 200px;
+    justify-content: space-between;
+    color: black;
+
+}
+#tele {
+    position: relative;
+    left: 200px;
+    justify-content: space-between;
+    color:powderblue;
+
+}

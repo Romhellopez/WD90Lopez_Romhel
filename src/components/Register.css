@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    -webkit-animation: form 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: form 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.signup {
+    color: rgb(77, 75, 75);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 0.5em;
+    text-align:center;
+}
+
+.form--input {
+    width: 100%;
+    margin-bottom: 1.25em;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 0.8em;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+}
+
+.form--input:focus {
+    border: 1px solid #639;
+    outline: none;
+}
+
+.form--submit {
+    width: 100%;
+    padding: 0.625em;
+    border-radius: 5px;
+    color: white;
+    background-color: #639;
+    border: 1px dashed #639;
+    cursor: pointer;
+}
+  
+.form--submit:hover {
+    color: white;
+    background-color: #52057B;
+    border: 1px dashed white;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+@media screen and (max-width:375px) {
+        .form {
+            position:relative;
+            top: 30vh;
+            left: 5vw;
+            width: 90%;
+        }
+
+        body {
+           zoom: 80%;
+        }
+}
+
+@-webkit-keyframes form {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes form {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @media screen and (max-width:446px) {
+    .form {
+        position:relative;
+        top: 30vh;
+        left: 20vw;
+        width: 70%;
+    }
+
+    body {
+       zoom: 80%;
+    }
+}
