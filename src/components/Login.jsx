@@ -135,7 +135,7 @@ const Login = () => {
       <button type="submit" className="submit" onClick={login} onKeyPress={handleKeyPress}>
       Submit
     </button>
-      {/* Ito yung link pag-gamit ng React Router kung gumagamit ka ng router */}
+      
       <p className='signup-link'>Don't have an account? <Link to='/register' className='a'>Sign up Here!</Link></p>
     </div>
     </div>
